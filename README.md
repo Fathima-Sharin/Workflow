@@ -10,8 +10,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/Fathima-Sharin/Workflow
+   cd Workflow
    ```
 
 2. Install dependencies:
