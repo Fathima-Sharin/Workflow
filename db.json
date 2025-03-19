@@ -1,0 +1,104 @@
+{
+  "workflow": [
+    {
+      "id": "da50",
+      "nodes": [
+        {
+          "id": "1",
+          "type": "input",
+          "data": {
+            "label": "Start"
+          },
+          "position": {
+            "x": 250,
+            "y": 5
+          },
+          "width": 150,
+          "height": 35
+        },
+        {
+          "id": "dndnode_0",
+          "type": "Process",
+          "position": {
+            "x": 353.84999084472656,
+            "y": 107
+          },
+          "data": {
+            "label": "Process node"
+          },
+          "width": 150,
+          "height": 35
+        },
+        {
+          "id": "dndnode_1",
+          "type": "Decision",
+          "position": {
+            "x": 393.34999084472656,
+            "y": 176
+          },
+          "data": {
+            "label": "Decision node"
+          },
+          "width": 150,
+          "height": 35
+        }
+      ],
+      "edges": [
+        {
+          "source": "1",
+          "sourceHandle": null,
+          "target": "dndnode_0",
+          "targetHandle": null,
+          "id": "reactflow__edge-1-dndnode_0"
+        },
+        {
+          "source": "dndnode_0",
+          "sourceHandle": null,
+          "target": "dndnode_1",
+          "targetHandle": null,
+          "id": "reactflow__edge-dndnode_0-dndnode_1"
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "nodes": [
+        {
+          "id": "1",
+          "type": "input",
+          "data": {
+            "label": "Start"
+          },
+          "position": {
+            "x": 250,
+            "y": 5
+          },
+          "width": 150,
+          "height": 35
+        },
+        {
+          "id": "dndnode_0",
+          "type": "Decision",
+          "position": {
+            "x": 333.34999084472656,
+            "y": 93.5
+          },
+          "data": {
+            "label": "Decision node"
+          },
+          "width": 150,
+          "height": 35
+        }
+      ],
+      "edges": [
+        {
+          "source": "1",
+          "sourceHandle": null,
+          "target": "dndnode_0",
+          "targetHandle": null,
+          "id": "reactflow__edge-1-dndnode_0"
+        }
+      ]
+    }
+  ]
+}
